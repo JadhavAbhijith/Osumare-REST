@@ -3,17 +3,17 @@ This project is a basic RESTful API built with Node.js and Express.js, managing 
 
 ## Technologies Used:
 * **Node.js:** JavaScript runtime environment.
-* **Express.js:** Web application framework for Node.js[cite: 11].
+* **Express.js:** Web application framework for Node.js.
 * **Git:** Version control system.
 * **GitHub:** Platform for version control and collaboration.
 * **VS Code:** Integrated Development Environment (IDE).
 
 ## Features:
-* **CRUD Operations:** Supports Create, Read, Update, Delete for tasks[cite: 5].
-* **In-Memory Data Storage:** Tasks are stored in memory (no database required)[cite: 6, 11].
-* **Validation:** Basic validation ensures required task properties (e.g., title, description) are present[cite: 11].
-* **Error Handling:** Gracefully handles unexpected issues[cite: 14].
-* **Appropriate Status Codes:** Uses correct HTTP status codes (200 for success, 404 for not found, 400 for bad requests)[cite: 12].
+* **CRUD Operations:** Supports Create, Read, Update, Delete for tasks.
+* **In-Memory Data Storage:** Tasks are stored in memory (no database required).
+* **Validation:** Basic validation ensures required task properties (e.g., title, description) are present.
+* **Error Handling:** Gracefully handles unexpected issues.
+* **Appropriate Status Codes:** Uses correct HTTP status codes (200 for success, 404 for not found, 400 for bad requests).
 
 ## Endpoints:
 * `GET /tasks`: Retrieve all tasks.
@@ -30,7 +30,6 @@ This project is a basic RESTful API built with Node.js and Express.js, managing 
 ## Setup & Running:
 1.  **Clone the repository:** `git clone https://github.com/JadhavAbhijith/Osumare-REST`
 2.  **Navigate to project:** `cd osumare-backend`
-3.  **Install dependencies:** `npm install`
-4.  **Start the server:** `npm start`
-5.  **Test:** Use tools like Postman or curl to test the API.
+3.  **Start the server:** `npm run dev`
+4.  **Test:** Use tools like Postman or curl to test the API.
 
